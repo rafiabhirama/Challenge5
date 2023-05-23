@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traditional Game</title>
+    <link rel="icon" href="/assets/img/logo.png" type="image/icon type" />
+    <link rel="stylesheet" href="/css/stylegame.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body bgcolor="#9C835F">
+    <div class="container">
+      <div class="judul">
+        <a href="http://localhost:3000/">
+          <button>
+            <img class="button ="back-button" src="/assets/img/back.png" alt=""
+            />
+          </button>
+        </a>
+        <img id="logo" src="/assets/img/logo.png" alt="" />
+        <p>ROCK PAPER SCISSORS</p>
+      </div>
+
+      <div class="container-fluid">
+        <div class="left-section">
+          <div class="player">
+            <div>
+              <div>
+                <p>PLAYER 1</p>
+              </div>
+              <button onclick="playGame('rock')" id="rock" class="button">
+                <img
+                  src="/assets/img/batu.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+            <div>
+              <button
+                onclick="playGame('scissors')"
+                id="scissors"
+                class="button"
+              >
+                <img
+                  src="/assets/img/gunting.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+            <div>
+              <button onclick="playGame('paper')" id="paper" class="button">
+                <img
+                  src="/assets/img/kertas.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mid-section">
+          <div class="vs">
+            <p id="result-display">VS</p>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="com">
+            <div>
+              <div>
+                <p>Com</p>
+              </div>
+              <button class="button">
+                <img
+                  src="/assets/img/batu.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+            <div>
+              <button class="button">
+                <img
+                  src="/assets/img/gunting.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+            <div>
+              <button class="button">
+                <img
+                  src="/assets/img/kertas.png"
+                  alt=""
+                  height="80px"
+                  width="80px"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="refresh">
+        <button id="reset-button" onclick="resetGame()">
+          <img src="/assets/img/refresh.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

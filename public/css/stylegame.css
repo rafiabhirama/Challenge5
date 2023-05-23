@@ -1,0 +1,172 @@
+.judul p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #f9b23d;
+}
+
+#logo {
+  margin: 16px;
+}
+
+.judul img {
+  width: 72px;
+  height: 72px;
+}
+
+#back-button {
+  width: auto;
+  height: 50px;
+}
+
+.judul button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.player {
+  font-size: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.button {
+  margin-bottom: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: burlywood;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.mid-section {
+  align-items: center;
+  display: flex;
+  margin: 80px;
+}
+
+.left-section {
+  text-align: center;
+}
+
+.right-section {
+  text-align: center;
+  width: 184px;
+}
+
+.refresh img {
+  max-width: 80px;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.judul {
+  display: flex;
+  align-items: center;
+}
+
+.judul img {
+  max-width: 80px;
+}
+
+.player p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.com p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.player img {
+  margin: 16px;
+}
+
+.com img {
+  margin: 16px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.vs p {
+  width: 296px;
+  height: 186px;
+  left: 589px;
+  top: 419px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 196px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #bd0000;
+}
+
+.container {
+  max-height: 100vh !important;
+}
+
+.refresh button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.refresh button:hover {
+  background-color: burlywood;
+}
+
+.result-img {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#result-display img {
+  width: 280px;
+}

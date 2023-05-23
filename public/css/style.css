@@ -1,0 +1,358 @@
+.container-fluid {
+  padding: 0px !important;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 25px !important;
+}
+
+.main-screen {
+  background-image: url(/assets/img/main-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 300px;
+  color: white;
+}
+
+.main-content h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.main-content h3 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.main-content button {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  margin-top: 20px;
+  min-width: 260px;
+  max-height: 60px;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.main-content-footer {
+  margin-top: 250px;
+}
+
+.about-gallery {
+  background-image: url(/assets/img/the-games-bg.jpg);
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-features {
+  height: 100vh;
+  background-image: url(/assets/img/features.jpg);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.game-title {
+  color: #ffb548;
+  margin-bottom: 50px;
+}
+
+.game-title-container {
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+.system-requirements {
+  height: 100vh;
+  background-image: url(/assets/img/requirements.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.press-quotes {
+  height: 100vh;
+  background-image: url(/assets/img/top-score-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.press-left {
+  position: relative;
+  left: -250px;
+}
+
+.press-left button {
+  margin-top: 30px;
+  background-color: #ffb548;
+  font-weight: 700;
+  width: 240px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.top-score-desc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.score-card-container {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.card-photo {
+  width: 60px;
+  border-radius: 180px;
+}
+
+.card-name {
+  color: #ffb548;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.card-role {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.card-desc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+
+.card-date {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.card-jada {
+  position: relative;
+  left: -150px;
+}
+
+.card-aaron {
+  position: relative;
+  left: -50px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .card-jada {
+    position: relative;
+    left: 0px;
+  }
+
+  .card-aaron {
+    position: relative;
+    left: 0px;
+  }
+
+  .press-left {
+    position: relative;
+    left: 0px;
+  }
+}
+
+.newsletter {
+  height: 100vh;
+  background-image: url(/assets/img/newsletter.png);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-style: none;
+}
+
+.newsletter input:focus {
+  background-color: rgba(160, 160, 160, 0.376);
+  border-style: none;
+  color: white;
+}
+
+.newsletter input::placeholder {
+  color: #ffb548;
+}
+
+.newsletter input::placeholder:active {
+  color: transparent;
+}
+
+.newsletter button {
+  background-color: #ffb548;
+  font-weight: 600;
+}
+
+.newsletter-title {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.newsletter-subsribe {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 75px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.newsletter-desc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.footer-text h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: 40px;
+
+  color: #ffffff;
+}
+
+.footer-icon {
+  margin-right: 30px;
+}
+
+.footer-line {
+  background-color: gray;
+  width: 100%;
+  height: 3px;
+}
+
+.footer-links {
+  border-bottom: 2px solid grey;
+  padding: 80px;
+}
+
+.privacy-policy {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.copyright {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: gainsboro;
+}
+
+@media only screen and (max-width: 390px) {
+  .nav-links {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .nav-links-right {
+    display: none;
+  }
+
+  .main-content h1 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .newsletter-subsribe {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
